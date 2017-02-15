@@ -1,0 +1,22 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <h3>Add Review</h3>
+        <form>
+            <div class="form-group">
+                <label for="reviewComment">Comment:</label>
+                <textarea class="form-control" [(ngModel)]="model.ReviewComment" name="ReviewComment" required ></textarea>
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating (1 to 5):</label>
+                <input type="text" class="form-control" [(ngModel)]="model.Rating" name="Rating" required>
+            </div>
+            <div class="form-group">
+                <label for="dataTimeVitited">Date Visited (mm/dd/yy):</label>
+                <input type="text" class="form-control" [(ngModel)]="model.DateTimeVisited" name="DateTimeVisited" required>
+            </div>
+            <button type="button" (click)="onSubmit()" class="btn btn-primary">
+                Submit Review
+            </button>
+        </form>
+    </div>
+</div>

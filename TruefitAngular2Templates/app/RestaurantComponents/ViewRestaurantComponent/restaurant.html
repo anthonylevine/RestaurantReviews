@@ -1,0 +1,25 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <h2>{{ ReviewTitle }}</h2>
+        <div *ngFor="let review of Reviews">
+            <div class="review-info">
+                Restaurant Name: {{ review.RestaurantName }}
+            </div>
+            <div class="review-info">
+                User: {{ review.UserName }}
+            </div>
+            <div class="review-info">
+                Date of Visit: {{ review.DateTimeVisited }}
+            </div>
+            <div class="review-info">
+                Comment: {{ review.ReviewComment }}
+            </div>
+            <div class="review-info">
+                Date Review Written: {{ review.DateReviewWritten }}
+            </div>
+            <div class="review-info" *ngIf="IsUsersReviews">
+                <input type="button" value="remove" class="btn btn-danger" (click)="onDelete(review.id)" />
+            </div>
+        </div>
+    </div>
+</div>

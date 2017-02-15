@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruefitAPI", "TruefitAPI\TruefitAPI.csproj", "{8C49F350-2A16-49A8-B8F0-D0BB03D4D18F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2WebTemplate1", "Angular2WebTemplate1\Angular2WebTemplate1.csproj", "{28F7B031-FCDD-469F-A59F-6F6B579AC157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruefitAngular2Templates", "TruefitAngular2Templates\TruefitAngular2Templates.csproj", "{63A9346D-7485-4BC1-B156-909DEA146A6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C49F350-2A16-49A8-B8F0-D0BB03D4D18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C49F350-2A16-49A8-B8F0-D0BB03D4D18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C49F350-2A16-49A8-B8F0-D0BB03D4D18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C49F350-2A16-49A8-B8F0-D0BB03D4D18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F7B031-FCDD-469F-A59F-6F6B579AC157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F7B031-FCDD-469F-A59F-6F6B579AC157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F7B031-FCDD-469F-A59F-6F6B579AC157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F7B031-FCDD-469F-A59F-6F6B579AC157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A9346D-7485-4BC1-B156-909DEA146A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A9346D-7485-4BC1-B156-909DEA146A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A9346D-7485-4BC1-B156-909DEA146A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A9346D-7485-4BC1-B156-909DEA146A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
